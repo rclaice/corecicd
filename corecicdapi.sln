@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corecicdapi", "corecicdapi\corecicdapi.csproj", "{9438A37A-A453-4A1E-AC5D-8C02257A18C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "corecicdapi", "corecicdapi\corecicdapi.csproj", "{9438A37A-A453-4A1E-AC5D-8C02257A18C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "corecicdapi.tests", "corecicdapi.tests\corecicdapi.tests.csproj", "{4612EA16-FA1A-4670-99DF-B41EDF59C1BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9438A37A-A453-4A1E-AC5D-8C02257A18C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9438A37A-A453-4A1E-AC5D-8C02257A18C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9438A37A-A453-4A1E-AC5D-8C02257A18C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4612EA16-FA1A-4670-99DF-B41EDF59C1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4612EA16-FA1A-4670-99DF-B41EDF59C1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4612EA16-FA1A-4670-99DF-B41EDF59C1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4612EA16-FA1A-4670-99DF-B41EDF59C1BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
